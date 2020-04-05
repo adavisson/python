@@ -52,3 +52,9 @@
   - maps keys to values
   - also known as maps or associative arrays
 - for-loop: visit each item in an iterable series
+- functions are defined with the 'def' keyword
+- It is convention to have two blank lines between top-level functions
+- docstrings: literal string which document functions, modules, and classes
+  - must be the first statement in the blocks for these constructs
+- Code should be clear enough where comments are not neccessarily needed
+- Comments start with '#'
