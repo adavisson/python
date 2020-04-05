@@ -24,3 +24,31 @@
 - For whitespace Python prefers four spaces
 - Never mix spaces and tabs
 - Be consistent on consecutive lines
+- Python scalar types:
+  - int
+  - float
+  - NoneType
+  - bool
+- Any operation with an integer and a float is promoted to a float
+- elif is Python's keyword for 'else if'
+- str: strings
+  - immutable
+  - Unicode
+  - Can use single or double quotes
+- multi-line strings are delimited by 3 quotes  
+- Python translates '\n' to the appropriate newline character for your system
+- Raw strings ignore escape characters
+  - Identified by starting string with a lowercase r
+- You can access certain characters of a string by using brackets
+- bytes: sequences of bytes
+  - similar to strings
+  - raw binary data
+  - denoted by starting with a lowercase b
+- To convert between str and bytes you need to know the proper encoding/decoding method
+- list: sequences of objects
+  - mutable
+  - elements of lists can be heterogeneous
+- dict: fundamental data structure in Python
+  - maps keys to values
+  - also known as maps or associative arrays
+- for-loop: visit each item in an iterable series
