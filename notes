@@ -1,0 +1,26 @@
+- Python is a high level programming language
+- Has a dynamic type system
+- Python community places a huge emphasis on readability
+- Multi-paradigm programming language
+- First release in 1991
+- Python 2.0 released in 2000
+- Python 3.0 released in 2008
+- Python Philosophy:
+  - Beautiful is better than ugly
+  - Explicit is better than implicit
+  - Simple is better than complex
+  - Complex is better than complicated
+  - Readability counts
+- Designed to be highly extensible
+  - Core language remains small and powerful
+- PEP: Python Enhancement Proposal
+- Emphasizes Fun
+- Look at Django for Python web development
+- pip install 3rd party libraries
+- ipython is a robust interactive shell
+- pypi - Pythone Package Index
+- Python3 is not backwards compatible
+- Default to Python3 when possible
+- For whitespace Python prefers four spaces
+- Never mix spaces and tabs
+- Be consistent on consecutive lines
