@@ -58,3 +58,6 @@
   - must be the first statement in the blocks for these constructs
 - Code should be clear enough where comments are not neccessarily needed
 - Comments start with '#'
+- return statements without a return value return None
+- 'def' is a statement which binds code to a name
+- sys.argv contains command line arguments
