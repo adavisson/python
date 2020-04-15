@@ -61,3 +61,49 @@
 - return statements without a return value return None
 - 'def' is a statement which binds code to a name
 - sys.argv contains command line arguments
+- Int's are immutable
+- List's are mutable
+- Function arguments are passed by object reference
+- When defining function arguments, arguments with default values must come after arguments without default arguments
+- 'def' is a statement executed at runtime
+- Default arguments are evaluated when 'def' is executed
+- Immutable default values don't cause problems
+- Mutable default values can cause confusing effects
+  - To avoid issues, try to always use immutable values for default arguments such as ints or strings
+- Python will not generally perofrm implicit conversions between types
+- Type declarations are unnecessary in Python
+- Names can be rebound as necessary to objects of any type
+- 4 types of scopes (narrowest to broadest):
+  - Local -> Inside the current function
+  - Enclosing -> Inside enclosing functions
+  - Global -> At the top level of the module
+  - Built-in -> In the special builtins module
+- Scopes in Python do not correspond to source code blocks
+  - ex. for loops do not introduce new nested scopes
+- Use the 'global' keyword to look force use of module variable
+- Everything is an object
+- tuple: immutable sequences of arbitrary objects
+  - two create a singel element use a trailing comma (ie. t = (9,))
+- tuple unpacking: destructuring operation that unpacks data structures into named references
+- Should use str.join() to join strings:
+  - Concatenation with '+' resultes in temporaries
+  - str.join() inserts a separator between a collection of strings
+  - the separator is the string on which join is called
+- range() signature
+  - range(stop)
+  - range(start, stop)
+  - range(start, stop, step)
+- range doesn't support keyword arguments
+- lists allow negative indices:
+  - the last element is indexed at -1
+- to copy a list without copying the reference you can copy using the slice operator like this: s[:]
+- list.index()
+  - find the loation of an object in a list
+  - returns the index of the first list element which is equal to the argument
+- sort and reverse modify the list in place
+- dictionary keys must be immutable and values may be mutable
+- dict.items()
+  - iterates over keys and values in tandem
+  - yields a (key, value) tuple on each iteration
+- when creating a set, duplicates are removed
+- sets are iterable, but their order is arbitrary
